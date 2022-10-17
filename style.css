@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.section_base{
+    width: 100%;
+    padding: 0 10%;
+}
+.astra_base{
+    width: 100%;
+}
+
+.astra_img_preview{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.astra_img_preview img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* section_1 */
+
+.astra_section_1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(219, 232, 236, 0.5) 0%, rgba(209, 226, 231, 1) 100%);
+}
+
+.astra_section_1 .img{
+    width: 50%;
+    padding-left: 5%;
+    height: 100%;
+}
+.astra_section_1 .img img {
+   height: 100%;
+   object-fit: cover;
+}
+
+.astra_section_1 .texts {
+    width: 50%;
+    padding-right: 15%;
+  
+}
+
+.astra_section_1 .texts .title{
+    font-size: 2.313rem;
+}
+
+.astra_section_1 .texts .paragraphe {
+    font-size: 1rem;
+    padding: 0.625rem 0;
+}
+
+
+/* section_2 */
+
+.astra_section_2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(223, 228, 230, 0.5) 0%, rgba(223, 228, 230, 1) 100%);
+}
+
+.astra_section_2 .img {
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+.astra_section_2 .img img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+   
+}
+
+.astra_section_2 .texts {
+    width: 40%;
+    padding-left: 10%;
+
+}
+
+.astra_section_2 .texts .title {
+    font-size: 2.313rem;
+}
+
+.astra_section_2 .texts .paragraphe {
+    font-size: 1rem;
+    padding: 0.625rem 0;
+}
+
+/* section_3 */
+
+.astra_section_3 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(219, 232, 236, 0.5) 0%, rgba(209, 226, 231, 1) 100%);
+}
+
+.astra_section_3 .img {
+    width: 65%;
+    height: 100%;
+    padding-left: 5%;
+    position: relative;
+}
+
+.astra_section_3 .img img {
+    /* height: 100%; */
+    width: 70%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+
+.astra_section_3 .texts {
+    width: 35%;
+    padding-right: 10%;
+
+}
+
+.astra_section_3 .texts .title {
+    font-size: 2.313rem;
+}
+
+.astra_section_3 .texts .paragraphe {
+    font-size: 1rem;
+    padding: 0.625rem 0;
+}
+
+
+/* section_4 */
+
+.astra_section_4 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(223, 228, 230, 0.5) 0%, rgba(223, 228, 230, 1) 100%);
+    gap: 10%;
+    padding-bottom: 0.625rem;
+}
+
+.astra_section_4 .img {
+    width: 50%;
+    height: 100%;
+    padding-right: 10%;
+}
+
+.astra_section_4 .img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.astra_section_4 .texts {
+    width: 50%;
+    padding-left: 10%;
+
+}
+
+.astra_section_4 .texts .title {
+    font-size: 2.313rem;
+}
+
+.astra_section_4 .texts .paragraphe {
+    font-size: 1rem;
+    padding: 0.625rem 0;
+}
+
+/* section_5 */
+.astra_section_5 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(219, 232, 236, 0.5) 0%, rgba(209, 226, 231, 1) 100%);
+    gap: 1.25rem;
+    padding: 1.25rem 0;
+}
+
+.block_img_1{
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.block_img_1 img {
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+.block_img_2 {
+    width: 50%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding-right: 10%;
+}
+
+.block_img_2 .block_1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: space-between;
+}
+.block_img_2 .block_1 .img_1 {
+    height: 50%;
+   border-radius: 5px;
+   overflow: hidden;
+}
+.block_img_2 .block_1 .img_1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* section_7 */
+
+.astra_section_6 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(223, 228, 230, 0.5) 0%, rgba(223, 228, 230, 1) 100%);
+}
+
+.astra_section_6 .img {
+    width: 70%;
+    height: 100%;
+    padding-left: 10%;
+}
+
+.astra_section_6 .img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.astra_section_6 .texts {
+    width: 30%;
+    padding-right: 10%;
+
+}
+
+.astra_section_6 .texts .title {
+    font-size: 2.313rem;
+}
+
+.astra_section_6 .texts .paragraphe {
+    font-size: 1rem;
+    padding: 0.625rem 0;
+}
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width:1024px) {
+   
+}
