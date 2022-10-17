@@ -523,7 +523,7 @@
             overflow: hidden;
             flex-direction: column;
             gap: 1.25rem;
-            padding: 1rem;
+            padding: 1.25rem 1rem;
           
     }
 
