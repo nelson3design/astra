@@ -315,6 +315,15 @@
 
 
 @media (max-width:1025px) {
+    .astra_section_1 .texts .title,
+    .astra_section_2 .texts .title,
+    .astra_section_3 .texts .title,
+    .astra_section_4 .texts .title,
+    .astra_section_5 .texts .title,
+    .astra_section_6 .texts .title,
+    .astra_section_7 .texts .title{
+        font-size: 1.5rem!important;
+    }
   
     .section_base {
             width: 100%;
