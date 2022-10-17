@@ -8,6 +8,11 @@
     font-size: 16px;
 }
 
+.btn-slide {
+    color: white;
+    transform: scale(.8);
+}
+
 .section_base{
     width: 100%;
     padding: 0 10%;

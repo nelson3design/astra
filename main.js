@@ -36,7 +36,7 @@ var swiper = new Swiper(".astraSwipper", {
 
         },
         1280: {
-            slidesPerView: 5,
+            slidesPerView: 4,
 
         }
     }
