@@ -15,4 +15,29 @@ var swiper = new Swiper(".astraSwipper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+
+        },
+
+        480: {
+            slidesPerView: 1,
+
+        },
+
+        640: {
+            slidesPerView: 2,
+
+        },
+        1024: {
+            slidesPerView: 4,
+
+        },
+        1280: {
+            slidesPerView: 5,
+
+        }
+    }
 });
